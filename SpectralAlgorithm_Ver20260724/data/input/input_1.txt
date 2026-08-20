@@ -1,0 +1,25 @@
+#####################################################################
+# Input parameters
+######################################################################
+
+The Fourier series truncation parameter <N>:: 16
+
+The truncation parameter of the wave-vector domain <R>:: 10.0
+
+The truncation parameter used in the integral approximation of the Dirac delta function <M>:: 4.0
+
+The quantum Boltzmann equation C = 1 or the 3-wave kinetic equation C = 0 <C>:: 1
+
+The dispersion relation <choice_omega>:: 1 
+
+The dispersion relation parameter <alpha>:: 1
+
+The kernel parameter <rho>:: 1
+
+The power of initial data as form e^{-|k|^power} <power_initial>:: 2
+
+Final time <final_time>:: 10
+
+Time step <dt>:: 0.1
+
+The name of the output directory <output_directory>:: Output_1

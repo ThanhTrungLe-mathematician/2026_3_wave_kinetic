@@ -1,0 +1,60 @@
+#####################################################################
+# Input parameters
+######################################################################
+
+The left boundary in rectangle space <x_left_boundary>:: 0.
+
+The right boundary in rectangle space <x_right_boundary>:: 0.5
+
+The lower boundary in rectangle space <y_lower_boundary>:: 0.
+
+The upper boundary in rectangle space <y_upper_boundary>:: 0.5
+
+x-axis step <dx>:: 0.00390625
+
+y-axis step <dy>:: 0.00390625
+
+Final time <final_time>:: 40.0
+
+Time step <dt>:: 0.00390625
+
+Initialisation of the initial condition <read file = 1, generate from function = 2> <choice_initial_condition>:: 2
+The name of the file contains the initial condition if read file <initial_condition_file>:: ../Input/initial_condition.txt
+
+Initialisation of the velocity <read file = 1, generate from function = 2> <choice_velocity>:: 2
+The name of the file contains the velocity if read file <velocity_file>:: ../Input/velocity_file.txt
+
+
+The age limit for babies <age_limit_babies>:: 0.5
+
+The age limit for juveniles <age_limit_juveniles>:: 1.5
+
+The age limit for adults <age_limit_adults>:: 10.0
+
+Age step <da>:: 0.015625
+
+Initialisation of the mortality rate <read file = 1, generate from function = 2> <choice_mortality_rate>:: 2	#always choose 2 because we can not read Tensor4D from file
+The name of the mortality rate file if read file <mortality_rate_file>:: ../Input/mortality_rate.txt
+
+Initialisation of the reproduction rate <read file = 1, generate from function = 2> <choice_reproduction_rate>:: 2
+The name of the reproduction rate file if read file <reproduction_rate_file>:: ../Input/reproduction_rate.txt
+
+Initialisation of the Allee coefficient <read file = 1, generate from function = 2> <choice_Allee_coefficient>:: 2
+The name of file of the Allee coefficient file if read file <Allee_coefficient_file>:: ../Input/Allee_coefficient.txt
+
+The threshold value R <threshold_value>:: 300.
+
+The theta value <theta_value>:: 0.001
+
+The sigma value <sigma_value>:: 0.001
+
+The mu value <mu_value>::0.0001
+
+The name of the output directory <output_directory>:: Output_8
+
+The maximal speed of predators <predator_max_speed>:: 0.50
+
+The predators's mortality rate <predator_mortality_rate>:: 0.025
+
+Initialisation of the initial condition for predators <read file = 1, generate from function = 2> <choice_predator_initial_condition>:: 2
+The name of the file contains the initial condition for predators if read file <predator_initial_condition_file>:: predator_initial_condition.txt
